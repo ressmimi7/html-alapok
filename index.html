@@ -35,7 +35,13 @@ p.nicePar{
     color:orange;
     background-color: black;
 }
-
+div{
+    display: block;
+    background-color: yellow;
+}
+div.felso{
+    background-color: green;
+}
     </style>
 </head>
 <body>
@@ -48,6 +54,8 @@ p.nicePar{
     <p>Ez egy sima szövegblokk.</p>
     <p class="nicePar">Ez egy sima szövegblokk.</p>
 
+    <div>
+        
     <table border="1">
         <thead>
             <th>
@@ -61,11 +69,21 @@ p.nicePar{
             </tr>
         </tbody>
     </table>
-    
-    <img src="logo.png" />
-    <video src="vid.mp4"></video> 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/gnTFPc0vMNU?si=wWRsEbLpQkzJCgPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+    </div>
+
+   
+    <div class="felso">
+    <img src="logo.png" />
+    </div>
+
+    <div class="also">
+    <video src="vid.mp4"></video> 
+    </div>
+
+   <div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gnTFPc0vMNU?si=wWRsEbLpQkzJCgPi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
 
 </body>
