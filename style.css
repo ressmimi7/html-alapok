@@ -23,63 +23,108 @@
 
 /* --- ALAP BEÁLLÍTÁSOK --- */
 * {
-    margin: 0;
+    margin: 2.8;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     /* Háttérszín */
-    background-color: #ffffff;
+   background: #16541c;
+background: radial-gradient(circle, rgba(22, 84, 28, 1) 0%, rgba(34, 161, 120, 1) 100%);
     /* Betűtípus */
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     /* Betűszín */
-    color: #333333;
+    
     /* Sormagasság */
-    line-height: 1.6;
+    line-height: 2.6;
 }
 
 
 /* --- OLDAL KERET --- */
 .oldal-keret {
-    /* Az egész oldal kerete / szélessége */
+  border: 9px solid rgb(16, 0, 75);
+  padding: 40px;
+  margin: 60px;
+    border-radius: 30px;
 }
+    /* Az egész oldal kerete / szélessége */
+
 
 
 /* --- FEJLÉC --- */
 .fejlec {
+    text-align: center;
+    h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ffffff, #079c02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+    
     /* Háttér, padding, szöveg igazítás */
 }
 
 .fooldal-cim {
+    text-align: center;
+    line-height: 3.6;
+
+font-family: monospace;    
+font-size: 70px;
     /* Főcím stílusa */
 }
 
 .kiemeles {
+      color: rgb(255, 174, 0);
+  font-weight: bold;
     /* A "CSS" szó kiemelése a címben */
 }
 
 .alcim {
     /* Alcím stílusa */
+    text-align: center;
+    line-height: 0.6;
+    font-family: monospace;
+    font-size: 32px;
 }
+
 
 
 /* --- BEVEZETŐ --- */
 .bevezeto {
+      border: 9px solid rgb(19, 1, 121);
+      background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(34, 161, 120, 1) 100%);
+
+  padding: 40px;
+  margin: 60px;
+    border-radius: 20px;
+      background-color: rgb(116, 197, 108);
+ font-family: monospace;
+ font-size: 20px;
     /* A bevezető szekció háttere, padding-ja */
 }
 
 .bevezeto-szoveg p {
     /* Bevezető bekezdések */
+    font-family: monospace;
+
+
 }
 
 
 /* --- KÁRTYÁK (a fő tartalom elemei) --- */
 .kartya {
+    font-family: monospace;
+    font-size: 16px;
     /* Háttér, padding, margin, border, border-radius, box-shadow */
 }
 
 .kartya-cim {
+    font-size: 28px;
+       text-align: center;
+           line-height: 0.2;
+            color: #fffb00;
+           
     /* Kártya címek stílusa */
 }
 
